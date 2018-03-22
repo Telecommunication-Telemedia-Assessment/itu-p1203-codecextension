@@ -1,0 +1,13 @@
+#!/usr/bin/env python3
+
+import sys
+import os
+
+from p1203Pv_extended import P1203Pv_codec_extended
+
+sys.path.append(os.path.dirname(os.path.realpath(__file__)) + '/itu-p1203/')
+
+from itu_p1203.__main__ import main
+
+if __name__ == "__main__":
+    sys.exit(main({"Pv": P1203Pv_codec_extended}))
