@@ -1,11 +1,21 @@
 # Codec Extension for ITU-T P.1203
-You should clone the official ITU-T P.1203 in this directory:
+
+## Requirements
+
+- Python 3
+- [`itu-p1203` implementation](https://github.com/itu-p1203/itu-p1203)
+
+## Installation
+
+Download this repository, then clone the official ITU-T P.1203 in this directory:
+
 ```
 git clone https://github.com/itu-p1203/itu-p1203.git
 ```
 
-As next step, you should be able to use the extension, with e.g. the `./calculate.py` script in a similar manner like the original itu-p1203 standalone version.
+## Usage
 
+Use the extension, with e.g. the `./calculate.py` script in a similar manner like the original `itu-p1203` standalone version.
 
 ## Non-Standard Codec Mapping
 
@@ -28,56 +38,25 @@ The relationship between the VMAF scores for these clips, averaged over all sour
 
 ## Acknowledgement
 
-If you use this software in your research, you must:
+If you use this software in your research, you must include the link to this repository.
 
-1. Include the link to this repository
-2. Cite the following publication:
-
-   A. Raake, M.-N. Garcia, W. Robitza, P. List, S. Göring, and B. Feiten, “A bitstream-based, scalable video-quality model for HTTP adaptive streaming: ITU-T P.1203.1,” in Ninth International Conference on Quality of Multimedia Experience (QoMEX), (Erfurt), 2017.
-
-        @inproceedings{Raake2017,
-        address = {Erfurt},
-        author = {Raake, Alexander and Garcia, Marie-Neige and Robitza, Werner and List, Peter and Göring, Steve and Feiten, Bernhard},
-        booktitle = {Ninth International Conference on Quality of Multimedia Experience (QoMEX)},
-        doi = {10.1109/QoMEX.2017.7965631},
-        isbn = {978-1-5386-4024-1},
-        month = {May},
-        publisher = {IEEE},
-        title = {{A bitstream-based, scalable video-quality model for HTTP adaptive streaming: ITU-T P.1203.1}},
-        url = {http://ieeexplore.ieee.org/document/7965631/},
-        year = {2017}
-        }
-
-Development of this software has been partly funded by the European Union’s Horizon 2020 research and innovation programme under the Marie Skłodowska-Curie grant agreement No 643072, Project [QoE-Net](http://www.qoenet-itn.eu/).
+Also, you must follow the acknowledgement rules from [the `itu-p1203` implementation](https://github.com/itu-p1203/itu-p1203/#acknowledgement)
 
 ## License
 
-Copyright 2017-2018 Deutsche Telekom AG, Technische Universität Berlin, Technische Universität Ilmenau, LM Ericsson
+The following license **only** applies to this codec extension. For the license of the original ITU-T P.1203 implementation please carefully [refer to the other repository](https://github.com/itu-p1203/itu-p1203/#license).
 
-Permission is hereby granted, free of charge, to use the software for non-commercial research purposes.
+Copyright 2018 Technische Universität Ilmenau
 
-Any other use of the software, including commercial use, merging, publishing, distributing, sublicensing, and/or selling copies of the Software, is forbidden.
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
-For a commercial license, you must contact the respective rights holders of the standards ITU-T Rec. P.1203, ITU-T Rec. P.1203.1, ITU-T Rec. P.1203.2, and ITU-T Rec. P.1203.3. See https://www.itu.int/en/ITU-T/ipr/Pages/default.aspx for more information.
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
-NO EXPRESS OR IMPLIED LICENSES TO ANY PARTY'S PATENT RIGHTS ARE GRANTED BY THIS LICENSE. THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 ## Authors
 
 Main developers:
 
 * Steve Göring, Technische Universität Ilmenau
-* Werner Robitza, Deutsche Telekom AG
-
-Contributors:
-
-* Marie-Neige Garcia, Technische Universität Berlin
-* Alexander Raake, Technische Universität Ilmenau
-* Marcel Schmalzl, Technische Universität Ilmenau
-* Peter List, Deutsche Telekom AG
-* Bernhard Feiten, Deutsche Telekom AG
-* Ulf Wüstenhagen, Deutsche Telekom AG
-* Jörgen Gustafsson, LM Ericsson
-* Gunnar Heikkilä, LM Ericsson
-* David Lindegren, LM Ericsson
-* Junaid Shaikh, LM Ericsson
+* Werner Robitza, Technische Universität Ilmenau
