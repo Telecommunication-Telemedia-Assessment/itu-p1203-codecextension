@@ -1,5 +1,9 @@
 # Codec Extension for ITU-T P.1203
 
+This extension to the [`itu-p1203` implementation](https://github.com/itu-p1203/itu-p1203) allows to calculate video quality scores for H.265/HEVC and VP9-encoded video using a custom mapping applied to the P.1203.1 Mode 0 calculation.
+
+**Note:** When this extension is used, the output values will not be compliant to the ITU-T Rec. P.1203.1 standard.
+
 ## Requirements
 
 - Python 3
