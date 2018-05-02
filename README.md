@@ -17,6 +17,8 @@ Download this repository, then clone the official ITU-T P.1203 in this directory
 git clone https://github.com/itu-p1203/itu-p1203.git
 ```
 
+If you want to use this extension in your software via pip, then you need to manually add the itu-p1203 repository as dependency!
+
 ## Usage
 
 Use the extension, with e.g. the `./calculate.py` script in a similar manner like the original `itu-p1203` standalone version.
