@@ -14,5 +14,5 @@ setup(
       'scipy',
       'pandas'
     ],
-    package_dir={'': 'p1203Pv_extended'},
+    package_dir={'p1203Pv_extended': 'p1203Pv_extended'},
 )
