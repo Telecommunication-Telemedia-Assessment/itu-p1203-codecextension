@@ -17,6 +17,12 @@ Download this repository, then clone the official ITU-T P.1203 in this directory
 git clone https://github.com/itu-p1203/itu-p1203.git
 ```
 
+You can also then install this package globally via:
+
+```
+pip3 install .
+```
+
 If you want to use this extension in your software via pip, then you need to manually add the itu-p1203 repository as dependency!
 
 ## Usage
