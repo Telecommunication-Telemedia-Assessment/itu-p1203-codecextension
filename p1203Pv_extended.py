@@ -38,8 +38,9 @@ class P1203Pv_codec_extended(P1203Pv):
     COEFFS_VP9 = [-0.04129014, 0.30953836, 0.32314399, 0.5284358]
     COEFFS_H265 = [-0.05196039, 0.39430046, 0.17486221, 0.50008018]
 
-    def __init__(self, segments, display_res="1920x1080", stream_id=None):
+    def __init__(self, segments, display_res="1920x1080", stream_id=None, show_warning=True):
         super().__init__(segments, display_res="1920x1080", stream_id=None)
+        self._show_warning = show_warning
 
     def model_callback(self, output_sample_timestamp, frames):
         super().model_callback(output_sample_timestamp, frames)
@@ -78,7 +79,8 @@ class P1203Pv_codec_extended(P1203Pv):
             if c not in ["h264", "h265", "hevc", "vp9"]:
                 raise P1203StandaloneError("Unsupported codec: {}".format(c))
             elif c != "h264":
-                logger.warning("Non-standard codec used. O22 Output will not be ITU-T P.1203 compliant.")
+                if self._show_warning:
+                    logger.warning("Non-standard codec used. O22 Output will not be ITU-T P.1203 compliant.")
             if self.mode != 0 and c != "h264":
                 raise P1203StandaloneError("Non-standard codec calculation only possible with Mode 0.")
 
