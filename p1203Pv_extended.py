@@ -37,10 +37,10 @@ class P1203Pv_codec_extended(P1203Pv):
     # non-standard codec mapping
     COEFFS_VP9 = [-0.04129014, 0.30953836, 0.32314399, 0.5284358]
     COEFFS_H265 = [-0.05196039, 0.39430046, 0.17486221, 0.50008018]
+    _show_warning = True
 
-    def __init__(self, segments, display_res="1920x1080", stream_id=None, show_warning=True):
+    def __init__(self, segments, display_res="1920x1080", stream_id=None):
         super().__init__(segments, display_res="1920x1080", stream_id=None)
-        self._show_warning = show_warning
 
     def model_callback(self, output_sample_timestamp, frames):
         super().model_callback(output_sample_timestamp, frames)
