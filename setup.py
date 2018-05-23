@@ -4,7 +4,7 @@ from setuptools import setup
 
 setup(
     name='p1203Pv_extended',
-    version='0.1',
+    version='0.2',
     description='p1203Pv_extended',
     author='Steve Goering',
     author_email='stg7@gmx.de',
