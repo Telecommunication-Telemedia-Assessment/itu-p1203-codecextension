@@ -11,13 +11,13 @@ This extension to the [`itu-p1203` implementation](https://github.com/itu-p1203/
 
 ## Installation
 
-Download this repository, then clone the official ITU-T P.1203 in this directory:
+Download this repository, then either install the official ITU-T P1203 software via pip, or clone the official ITU-T P.1203 in this directory:
 
 ```
 git clone https://github.com/itu-p1203/itu-p1203.git
 ```
 
-You can also then install this package globally via:
+You can also then install *this* package globally via:
 
 ```
 pip3 install .

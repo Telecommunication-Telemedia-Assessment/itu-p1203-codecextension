@@ -22,7 +22,11 @@ SOFTWARE.
 """
 import sys
 import os
-sys.path.append(os.path.dirname(os.path.realpath(__file__)) + '/itu-p1203/')
+
+p1203_path = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'itu-p1203'))
+
+if os.path.isdir(p1203_path):
+    sys.path.insert(0, p1203_path)
 
 from itu_p1203 import log
 from itu_p1203 import utils
@@ -30,7 +34,6 @@ from itu_p1203.errors import P1203StandaloneError
 from itu_p1203.p1203Pv import P1203Pv
 
 logger = log.setup_custom_logger('main')
-
 
 class P1203Pv_codec_extended(P1203Pv):
 
