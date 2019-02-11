@@ -69,10 +69,7 @@ class P1203Pv_codec_extended(P1203Pv):
             # compensate score
             score = max(1, min(correction_func(score, *coeffs), 5))
 
-        # print({"before": self.o22[-1], "after": score})
         self.o22[-1] = score
-
-        self.o22.append(score)
 
     def check_codec(self):
         """ extends the supported codecs
