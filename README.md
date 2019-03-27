@@ -50,9 +50,37 @@ The relationship between the VMAF scores for these clips, averaged over all sour
 
 ## Acknowledgement
 
-If you use this software in your research, you must include the link to this repository.
+If you use this software in your research, you must follow the acknowledgement rules from [the `itu-p1203` implementation](https://github.com/itu-p1203/itu-p1203/#acknowledgement) and, in doing so:
 
-Also, you must follow the acknowledgement rules from [the `itu-p1203` implementation](https://github.com/itu-p1203/itu-p1203/#acknowledgement)
+1. include the link to this repository and 
+2. cite the following papers:
+
+    Raake, A., Garcia, M.-N., Robitza, W., List, P., Göring, S., Feiten, B. (2017). A bitstream-based, scalable video-quality model for HTTP adaptive streaming: ITU-T P.1203.1. In 2017 Ninth International Conference on Quality of Multimedia Experience (QoMEX). Erfurt.
+
+        @inproceedings{Raake2017,
+        address = {Erfurt},
+        author = {Raake, Alexander and Garcia, Marie-Neige and Robitza, Werner and List, Peter and Göring, Steve and Feiten, Bernhard},
+        booktitle = {Ninth International Conference on Quality of Multimedia Experience (QoMEX)},
+        doi = {10.1109/QoMEX.2017.7965631},
+        isbn = {978-1-5386-4024-1},
+        month = {May},
+        publisher = {IEEE},
+        title = {{A bitstream-based, scalable video-quality model for HTTP adaptive streaming: ITU-T P.1203.1}},
+        url = {http://ieeexplore.ieee.org/document/7965631/},
+        year = {2017}
+        }
+
+    Robitza, W., Göring, S., Raake, A., Lindegren, D., Heikkilä, G., Gustafsson, J., List, P., Feiten, B., Wüstenhagen, U., Garcia, M.-N., Yamagishi, K., Broom, S. (2018). HTTP Adaptive Streaming QoE Estimation with ITU-T Rec. P.1203 – Open Databases and Software. In 9th ACM Multimedia Systems Conference. Amsterdam.
+
+        @inproceedings{Robitza2018,
+        address = {Amsterdam},
+        author = {Robitza, Werner and Göring, Steve and Raake, Alexander and Lindegren, David and Heikkilä, Gunnar and Gustafsson, Jörgen and List, Peter and Feiten, Bernhard and Wüstenhagen, Ulf and Garcia, Marie-Neige and Yamagishi, Kazuhisa and Broom, Simon},
+        booktitle = {9th ACM Multimedia Systems Conference},
+        doi = {10.1145/3204949.3208124},
+        isbn = {9781450351928},
+        title = {{HTTP Adaptive Streaming QoE Estimation with ITU-T Rec. P.1203 – Open Databases and Software}},
+        year = {2018}
+        }
 
 ## License
 
