@@ -4,10 +4,12 @@ This extension to the [`itu-p1203` implementation](https://github.com/itu-p1203/
 
 **Note:** When this extension is used, the output values will not be compliant to the ITU-T Rec. P.1203.1 standard.
 
+**Important:** This version requires at least version 1.5.0 of the `itu-p1203` software.
+
 ## Requirements
 
 - Python 3
-- [`itu-p1203` implementation](https://github.com/itu-p1203/itu-p1203)
+- [`itu-p1203` implementation (>v1.5.0)](https://github.com/itu-p1203/itu-p1203)
 
 ## Installation
 
@@ -86,7 +88,7 @@ If you use this software in your research, you must follow the acknowledgement r
 
 The following license **only** applies to this codec extension. For the license of the original ITU-T P.1203 implementation please carefully [refer to the other repository](https://github.com/itu-p1203/itu-p1203/#license).
 
-Copyright 2018 Technische Universität Ilmenau
+Copyright 2018-2020 Technische Universität Ilmenau
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
