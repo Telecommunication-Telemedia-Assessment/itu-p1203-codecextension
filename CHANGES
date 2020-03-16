@@ -1,3 +1,8 @@
+Version 0.4.0:
+ - add compatibility for itu-p1203 v1.5.0
+ - add p1203 requirement
+ - update acknowledgement rules
+
 Version 0.3.1:
  - do not double-append score to O22
 
