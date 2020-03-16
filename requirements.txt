@@ -1,0 +1,1 @@
+git+git://github.com/itu-p1203/itu-p1203@1.5.0#egg=itu_p1203
